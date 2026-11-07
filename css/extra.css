@@ -1,0 +1,47 @@
+/* Extra styles for the PHP version (nav, messages, admin pages, forms) */
+.nav { display:flex; align-items:center; gap:22px; }
+.nav a { color:#333; text-decoration:none; font-weight:600; }
+.nav a:hover { color:#DC143C; }
+.nav .cart a { color:#8B0000; }
+.nav .who { color:#666; font-size:14px; }
+
+.flash { max-width:1100px; margin:20px auto 0; padding:12px 18px; border-radius:8px; font-weight:600; }
+.flash.ok  { background:#e3f4e3; color:#14532d; }
+.flash.err { background:#fde4e4; color:#7f1d1d; }
+
+.container { max-width:1100px; margin:30px auto; padding:0 20px; }
+.hero h1 { font-size:42px; margin-bottom:10px; }
+.hero p  { font-size:18px; opacity:.9; }
+
+.toolbar { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:25px; }
+.toolbar input, .toolbar select { padding:10px 14px; border:1px solid #ccc; border-radius:8px; font-size:15px; }
+.toolbar input[type=text] { flex:1; min-width:180px; }
+
+.btn-main { display:inline-block; padding:10px 20px; border:none; border-radius:25px; background:#8B0000; color:#fff;
+            font-weight:600; cursor:pointer; text-decoration:none; font-size:15px; }
+.btn-main:hover { background:#DC143C; }
+.btn-edit { background:#1d4ed8; } .btn-edit:hover { background:#2563eb; }
+.btn-del  { background:#444; }    .btn-del:hover  { background:#b91c1c; }
+.btn-sm   { padding:6px 14px; font-size:13px; }
+
+.empty { text-align:center; padding:60px 0; color:#666; }
+
+table.data { width:100%; border-collapse:collapse; background:#fff; border-radius:12px; overflow:hidden;
+             box-shadow:0 4px 15px rgba(0,0,0,.08); }
+table.data th { background:#8B0000; color:#fff; text-align:left; padding:12px; }
+table.data td { padding:12px; border-bottom:1px solid #eee; vertical-align:middle; }
+table.data img { width:56px; height:56px; object-fit:cover; border-radius:8px; }
+.table-wrap { overflow-x:auto; }
+.inline { display:inline; }
+
+.panel { background:#fff; border-radius:15px; padding:30px; max-width:640px; margin:0 auto;
+         box-shadow:0 4px 15px rgba(0,0,0,.08); }
+.panel label { display:block; font-weight:600; margin:14px 0 6px; }
+.panel input[type=text], .panel input[type=number], .panel input[type=file],
+.panel input[type=password], .panel textarea { width:100%; padding:10px; border:1px solid #ccc; border-radius:8px; font:inherit; }
+.panel textarea { min-height:110px; resize:vertical; }
+.panel .actions { margin-top:22px; display:flex; gap:10px; }
+.current-img { width:120px; height:120px; object-fit:cover; border-radius:10px; margin-top:8px; display:block; }
+.error-list { background:#fde4e4; color:#7f1d1d; padding:12px 18px 12px 34px; border-radius:8px; margin-bottom:10px; }
+
+.hero-banner img { display:block; width:100%; max-height:420px; object-fit:cover; }
